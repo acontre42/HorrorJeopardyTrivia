@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Freckle Face Regular';
+    src: url('fonts/FreckleFace-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: rgb(0, 0, 0.942);
+    color: #880808;
+    font-family: 'Freckle Face Regular', 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.fill-screen {
+    position: absolute;
+    background-color: black;
+    width: 99%;
+    height: 99%;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px white;
+}
+
+#splashScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    animation-name: abrupt-fade-out;
+    animation-duration: 4.5s;
+}
+
+#splashScreen h1 {
+    opacity: 0;
+    animation-name: fade-in-and-out;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+}
+
+body {
+    height: 100%;
+}
+
+footer {
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 0px;
+    z-index:-1;
+}
+
+h1 {
+    padding: 0px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+#board {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    width: 16.5%;
+    height: 100%;
+}
+
+.titlecard {
+    background-color: black;
+    color: white;
+    text-shadow: 1px 5px 2px#880808;
+    text-align: center;
+    width: 100%;
+    height: 119px;
+    border: 2px solid;
+    border-color: #880808;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.card {
+    background-color: white;
+    color: #880808;
+    text-shadow: 1px 1.5px 2px#880808;
+    text-align: center;
+    border: 2px solid;
+    border-color: #880808;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.opened { /* To distinguish cards that have been opened already. */
+    background-color: rgba(255, 255, 255, 0.394);
+    text-decoration: line-through;
+}
+
+#popup {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.74); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#infoDiv {
+    text-align: center;
+    background-color: black;
+    text-shadow: 1px 1px 1px white;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+    max-width: 50%;
+    border-radius: 2%;
+    border: 0.2rem double #880808;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#infoDiv h1 {
+    text-decoration: underline;
+}
+
+#infoDiv h2, #infoDiv h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#infoDiv h3 {
+    font-size: 1.3rem;
+}
+
+#infoDiv img {
+    max-width: 60%;
+}
+
+#infoDiv button {
+    background-color: #880808;
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.endnote {
+    font-size: 1rem;
+}
+
+.cloaked {
+    background-color: #880808;
+    text-shadow: none;
+}
+
+#gameOverDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 5rem;
+}
+
+.animateFadeIn {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
