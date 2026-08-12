@@ -1,0 +1,182 @@
+{
+    "categories":[
+        {
+            "name":"Test Subjects",
+            "description":"Displays image of a character and players must answer with either their name, what trap they were in, or an apt description of their role in the movies.",
+            "questions":[
+                {
+                    "question":"Who is this?",
+                    "answer":"John Kramer / Jigsaw, Bloodboarding trap",
+                    "imgPath":"/saw/subjects/john.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Xavier Chavez, Nerve Gas House",
+                    "imgPath":"/saw/subjects/xavier.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Gabriela, Radiation Trap",
+                    "imgPath":"/saw/subjects/gabriela.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Special Agent Peter Strahm, Water Cube trap, Glass Coffin trap",
+                    "imgPath":"/saw/subjects/strahm.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Art Blank, The Mausoleum, Spine Cutters trap",
+                    "imgPath":"/saw/subjects/art.png"
+                }
+            ]
+        },
+        {
+            "name":"Traps",
+            "description":"Questions related to various traps in the movies.",
+            "questions":[
+                {
+                    "question":"In the Venus Fly trap, informant Michael Marks must retrieve a key located somewhere within his body in order to remove the death mask around his neck. Where has the key been ensconced?",
+                    "answer":"Behind his eye"
+                },
+                {
+                    "question":"In the Pound of Flesh trap, Simone, a slender woman, faces off against Eddie, a much larger and heavier man, over who can \"donate\" the most flesh by weight. How does she manage to beat him?",
+                    "answer":"By chopping off and donating her arm"
+                },
+                {
+                    "question":"In the Classroom trap, repeat offender Troy manages to free himself from all but one of various chains hooked to his body before being torn apart by a nail bomb explosion. Which body part was the remaining chain attached to?",
+                    "answer":"His jaw"
+                },
+                {
+                    "question":"In the Pig Vat, Judge Halden is strapped to the bottom of a large vat as it fills with the shredded, liquefied juices of rotting pig carcasses. In order to save him, what must Jeff Denlon do in order to retrieve the key to Halden's restraint?",
+                    "answer":"Incinerate his deceased son's belongings"
+                },
+                {
+                    "question":"Per Jigsaw's final request, Jill Tuck places Mark Hoffman in an unwinnable Reverse Bear Trap. How does the Hoffmanator manage to escape?",
+                    "answer":"He frees himself from his restraint by smashing his hand with the RBT before ramming it between the metal bars on the door's window and tearing it off his head"
+                }
+            ]
+        },
+        {
+            "name":"Jigsaw",
+            "description":"Questions related to Jigsaw.",
+            "questions":[
+                {
+                    "question":"To which country does Jigsaw travel to while under the impression that he will be undergoing a new experimental cancer treatment?",
+                    "answer":"Mexico"
+                },
+                {
+                    "question":"How does Jigsaw ultimately die?",
+                    "answer":"Throat slit with a circular saw wielded by Jeff Denlon"
+                },
+                {
+                    "question":"Fill in the blank: Jigsaw makes an appearance in every Saw entry, either alive or through flashbacks post-mortem, except for ___.",
+                    "answer":"Spiral",
+                    "endnote":"He is only mentioned by name or shown in photographs"
+                },
+                {
+                    "question":"What type of animal does Jigsaw use as a metaphor for insurance companies while observing the aquarium in William Easton's office?",
+                    "answer":"Piranha"
+                },
+                {
+                    "question":"Why do Jigsaw and his apprentices wear pig masks?",
+                    "answer":"Jigsaw's son was supposed to be born during the Chinese Year of the Pig"
+                }
+            ]
+        },
+        {
+            "name":"Actual Shithole",
+            "description":"Questions related to events that occurred in the bathroom under the Nerve Gas House.",
+            "questions":[
+                {
+                    "question":"Who are the first two test subjects to be chained up in the Bathroom?",
+                    "answer":"Adam Stanheight and Dr. Lawrence Gordon"
+                },
+                {
+                    "question":"What symbol is painted on the toilet containing the hacksaws?",
+                    "answer":"A heart"
+                },
+                {
+                    "question":"The same hacksaw Dr. Gordon uses to cut off his foot is later used to kill which character?",
+                    "answer":"Xavier Chavez"
+                },
+                {
+                    "question":"What ultimately kills Adam in the Bathroom?",
+                    "answer":"Being suffocated with a plastic bag by Amanda"
+                },
+                {
+                    "question":"In total, how many confirmed deaths have occurred in the Bathroom throughout the series?",
+                    "answer":"3",
+                    "endnote":"Zep Hindle, Adam Stanheight, Xavier Chavez"
+                }
+            ]
+        },
+        {
+            "name":"Retribution",
+            "description":"Displays image of a trap and players must give the reason why the victim was placed in that trap.",
+            "questions":[
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Cutting/attempting suicide",
+                    "endnote":"Paul Leahy in the Razor Wire Maze, Saw",
+                    "imgPath": "/saw/retribution/razor.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Smoking despite poor medical history",
+                    "endnote":"Hank in the Oxygen Crusher, Saw VI",
+                    "imgPath": "/saw/retribution/oxygen.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"To get back at Jigsaw",
+                    "endnote":"Carlos in the Bloodboarding Trap, Saw X",
+                    "imgPath": "/saw/retribution/bloodboarding.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Covering up police corruption",
+                    "endnote":"Marcus Banks in the Puppet Trap, Spiral",
+                    "imgPath": "/saw/retribution/puppet.png"
+                },
+                {
+                    "question":"Why were the victims placed in this trap?",
+                    "answer":"They were all involved in an arson case that killed eight people",
+                    "endnote":"Brit Stevenson, Charles Salomon, Luba Gibbs, Mallick Scott, and Ashley Kazon in the Neck Tie Trap, Saw V",
+                    "imgPath": "/saw/retribution/necktie.png"
+                }
+            ]
+        },
+        {
+            "name":"Speak No Evil",
+            "description":"A quote is shown and players must answer with the name of the person who said it.",
+            "questions":[
+                {
+                    "question":"Who said this?\n<blockquote>\"Most people are so ungrateful to be alive. But not you. Not anymore.\"</blockquote>",
+                    "answer":"John Kramer",
+                    "endnote":"Saw"
+                },
+                {
+                    "question":"Who said this?\n<blockquote>\"You're not Jigsaw, bitch!\"</blockquote>",
+                    "answer":"Detective Eric Matthews",
+                    "endnote":"Saw III"
+                },
+                {
+                    "question":"Who said this?\n<blockquote>\"My name is Very Fucking Confused; what's your name?\"</blockquote>",
+                    "answer":"Adam Stanheight",
+                    "endnote":"Saw"
+                },
+                {
+                    "question":"Who said this?\n<blockquote>\"What is the cure for cancer, Eric? The cure for death itself? The answer is immortality.\"</blockquote>",
+                    "answer":"Amanda Young",
+                    "endnote":"Saw II"
+                },
+                {
+                    "question":"Who said this?\n<blockquote>\"I speak for the dead.\"</blockquote>",
+                    "answer":"Logan Nelson",
+                    "endnote":"Jigsaw"
+                }
+            ]
+        }
+    ]
+}

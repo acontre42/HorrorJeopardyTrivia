@@ -1,0 +1,182 @@
+{
+    "categories":[
+        {
+            "name":"Test Subjects",
+            "description":"Displays image of a character and players must answer with either their name, what trap they were in, or an apt description of their role in the movies.",
+            "questions":[
+                {
+                    "question":"Who is this?",
+                    "answer":"Adam Stanheight, Bathroom Trap",
+                    "imgPath":"/saw/subjects/adam.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Dr. Lynn Denlon, Shotgun Collar",
+                    "imgPath":"/saw/subjects/drlynn.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Detective Eric Matthews, Ice Block Trap",
+                    "imgPath":"/saw/subjects/eric.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Obi Tate, The Furnace",
+                    "imgPath":"/saw/subjects/obi.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Cecilia Pederson, Gas Chamber Trap",
+                    "imgPath":"/saw/subjects/cecilia.png"
+                }
+            ]
+        },
+        {
+            "name":"Traps",
+            "description":"Questions related to various traps in the movies.",
+            "questions":[
+                {
+                    "question":"Fill in the blank: In the Angel Trap, Detective Allison Kerry wakes to find herself suspended in the air by a device hooked into her ribcage. To escape, she must retrieve the key to the device's padlock from a glass jar filled with ____.",
+                    "answer":"Acid"
+                },
+                {
+                    "question":"In the Shotgun Carousel, six insurance agents sat strapped to a merry-go-round in front of a loaded shotgun while their employer, William Easton, had to decide who to spare as he could not afford to insure them all. How many of these agents had their life insurance policies approved?",
+                    "answer":"2"
+                },
+                {
+                    "question":"In the Water Cube Trap, Special Agent Peter Strahm's head was stuck inside a glass box rapidly filling with water with no discernible way out. How did he manage to survive this trap?",
+                    "answer":"He gave himself a tracheotomy using a pen in his pocket"
+                },
+                {
+                    "question":"In the Horsepower Trap, Evan tried so hard and got so far, but in the end it didn't even matter as he and his skinhead buddies all became roadkill. How many people in total died in this trap?",
+                    "answer":"4"
+                },
+                {
+                    "question":"The Reverse Bear Trap has been used to test three different people, but only one person has succumbed to it. Who was the unlucky victim?",
+                    "answer":"Jill Tuck",
+                    "endnote": "Amanda and Hoffman managed to survive theirs"
+                }
+            ]
+        },
+        {
+            "name":"Jigsaw",
+            "description":"Questions related to Jigsaw.",
+            "questions":[
+                {
+                    "question":"What is Jigsaw's real name?",
+                    "answer":"John Kramer"
+                },
+                {
+                    "question":"What is the name of Jigsaw's puppet?",
+                    "answer":"Billy"
+                },
+                {
+                    "question":"Who was Jigsaw's first victim?",
+                    "answer":"Cecil Adams",
+                    "endnote":"The drug addict that caused Jill's miscarriage."
+                },
+                {
+                    "question":"What name did Jigsaw have picked out for his unborn son?",
+                    "answer":"Gideon"
+                },
+                {
+                    "question":"Not including flashbacks, in how many movies does a living Jigsaw appear?",
+                    "answer":"4",
+                    "endnote":"I, II, III, X"
+                }
+            ]
+        },
+        {
+            "name":"Apprentices",
+            "description":"Questions related to Jigsaw's apprentices.",
+            "questions":[
+                {
+                    "question":"What kinds of masks do Jigsaw's apprentices wear?",
+                    "answer":"Pig head masks"
+                },
+                {
+                    "question":"Which two traps did Amanda endure?",
+                    "answer":"The Reverse Bear Trap and the Needle Pit"
+                },
+                {
+                    "question":"Which apprentice is responsible for this spine-chilling line?\n<blockquote>\"Out of all the men to cheat, you picked John Kramer? I mean, I call that... epic bad luck.\"</blockquote>",
+                    "answer":"Mark Hoffman"
+                },
+                {
+                    "question":"Who was supposedly Jigsaw's first apprentice?",
+                    "answer":"Logan Nelson"
+                },
+                {
+                    "question":"In the order in which the movies were released, which of Jigsaw's apprentices makes the earliest on-screen appearance?",
+                    "answer":"Dr. Lawrence Gordon"
+                }
+            ]
+        },
+        {
+            "name":"Retribution",
+            "description":"Displays image of a trap and players must give the reason why the victim was placed in that trap.",
+            "questions":[
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Killed a child while drunk driving",
+                    "endnote":"Timothy Young in The Rack, Saw III",
+                    "imgPath": "/saw/retribution/rack.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Murdered his girlfriend who was Hoffman's sister",
+                    "endnote":"Seth Baxter in the Pendulum Trap, Saw V",
+                    "imgPath": "/saw/retribution/pendulum.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Pimping women",
+                    "endnote":"Brenda in the Scalping Seat, Saw IV",
+                    "imgPath": "/saw/retribution/scalping.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Her husband lied about being a Jigsaw victim",
+                    "endnote":"Joyce Dagen in the Brazen Bull, Saw 3D",
+                    "imgPath": "/saw/retribution/bull.png"
+                },
+                {
+                    "question":"Why was the victim placed in this trap?",
+                    "answer":"Sold Jigsaw's nephew a faulty motorcyle which resulted in his death",
+                    "endnote":"Mitch in the Cycle Trap, Jigsaw",
+                    "imgPath": "/saw/retribution/cycle.png"
+                }
+            ]
+        },
+        {
+            "name":"Legacy",
+            "description":"Questions related to the Saw franchise as a whole.",
+            "questions":[
+                {
+                    "question":"How many feature-length movies have been released as of 2026?",
+                    "answer":"10",
+                    "endnote":"I, II, III, IV, V, VI, 3D, Jigsaw, Spiral, X"
+                },
+                {
+                    "question":"Fill in the blank: Many of the Saw movie releases were accompanied by an event where participants could donate ____ in exchange for a free ticket to see the film.",
+                    "answer":"Blood",
+                    "endnote":"The Saw Blood Drive was used to promote all of the Saw movies except 3D and Spiral. All blood went to the American Red Cross."
+                },
+                {
+                    "question":"Two video games set in the Saw universe were released on which two video game consoles?",
+                    "answer":"PS3 and Xbox 360",
+                    "endnote":"Saw: The Video Game (2009), Saw II: Flesh & Blood (2010)"
+                },
+                {
+                    "question":"Saw - The Ride is a rollercoaster that opened in Thorpe Park in 2009 and still operates to this day. Which country is the park based in?",
+                    "answer":"England"
+                },
+                {
+                    "question":"Scream Queens was a two season competition reality show that awarded its winners with cameo roles in which two Saw entries?",
+                    "answer":"Saw VI and Saw 3D, respectively",
+                    "endnote":"Season 1 winner Tanedra Howard portrayed Simone Bethson (Pound of Flesh Trap).<br>Season 2 winner Gabby West portrayed Kara (Horsepower Trap)."
+                }
+            ]
+        }
+    ]
+}

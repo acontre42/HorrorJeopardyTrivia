@@ -1,0 +1,187 @@
+{
+    "categories":[
+        {
+            "name":"Woodsboro",
+            "description":"Questions related to Woodsboro and its residents.",
+            "questions":[
+                {
+                    "question":"Which two Woodsboro residents are notorious for their on-again, off-again relationship?",
+                    "answer":"Dwight \"Dewey\" Riley and Gale Weathers"
+                },
+                {
+                    "question":"Which Woodsboro resident was falsely accused and imprisoned for the murder of Maureen Precott?",
+                    "answer":"Cotton Weary"
+                },
+                {
+                    "question":"Which character is the love child of former Woodsboro resident Billy Loomis?",
+                    "answer":"Samantha \"Sam\" Carpenter"
+                },
+                {
+                    "question":"How many of the movies are set in Woodsboro, California?",
+                    "answer":"3",
+                    "endnote":"Scream, Scream 4, Scream (2022)"
+                },
+                {
+                    "question":"Which character's family moves into the Macher house following the events of the first Scream?",
+                    "answer":"Amber Freeman"
+                }
+            ]
+        },
+        {
+            "name":"Ghostface",
+            "description":"Questions related to the Ghostface killers.",
+            "questions":[
+                {
+                    "question":"Who were the original Ghostface killers?",
+                    "answer":"Billy Loomis and Stuart \"Stu\" Macher"
+                },
+                {
+                    "question":"What do Ghostfaces typically do right before attacking their victims?",
+                    "answer":"Call them on the phone"
+                },
+                {
+                    "question":"Which two Ghostface killers have familial ties to Sidney Prescott?",
+                    "answer":"Roman Bridger and Jill Roberts",
+                    "endnote":"Sidney's half-brother and cousin, respectively"
+                },
+                {
+                    "question":"Out of all the Ghostfaces, how many took up the mantle to avenge the death of a previous Ghostface killer?",
+                    "answer":"4",
+                    "endnote":"Debbie Salt/Nancy Loomis, Detective Wayne Bailey/Kirsch, Quinn Bailey/Kirsch, Ethan Landry/Kirsch"
+                },
+                {
+                    "question":"Which Ghostface has the earliest on-screen identity reveal/unmasking?",
+                    "answer":"Jason Carvey"
+                }
+            ]
+        },
+        {
+            "name":"Victims",
+            "description":"Display image of a Ghostface victim and players must answer with their name or an apt description.",
+            "questions":[
+                {
+                    "question":"Who is this?",
+                    "answer":"Randy Meeks",
+                    "imgPath": "/scream/victims/randy.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Hallie McDaniel",
+                    "endnote":"Sidney's college roommate",
+                    "imgPath": "/scream/victims/hallie.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Kenneth \"Kenny\" Brown",
+                    "endnote":"Gale's cameraman",
+                    "imgPath": "/scream/victims/kenny.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Rebecca Walters",
+                    "endnote":"Sidney's publicist and personal assistant",
+                    "imgPath": "/scream/victims/rebecca.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Vincent \"Vince\" Schneider",
+                    "endnote":"Stu Macher's nephew and Liv McKenzie's ex/stalker",
+                    "imgPath": "/scream/victims/vince.png"
+                }
+            ]
+        },
+        {
+            "name":"The Final Girl",
+            "description":"Questions about Sidney Prescott.",
+            "questions":[
+                {
+                    "question":"Fill in the blank: In the first Scream, 17-year-old Sidney Prescott is still mourning the death of her ___ a year after they were murdered.",
+                    "answer":"Mother"
+                },
+                {
+                    "question":"Fill in the blank: Sidney appears in every Scream movie except for ___.",
+                    "answer":"Scream VI"
+                },
+                {
+                    "question":"What was Sidney's occupation during the events of Scream 3?",
+                    "answer":"Hotline operator for the California Women's Crisis Counseling"
+                },
+                {
+                    "question":"What was Sidney's reason for returning to Woodsboro in Scream 4?",
+                    "answer":"Promoting her new book, <i>Out of Darkness</i>"
+                },
+                {
+                    "question":"Which real life actress portrays Sidney in the movie <i>Stab</i>?",
+                    "answer":"Tori Spelling"
+                }
+            ]
+        },
+        {
+            "name":"What's Your Motive?",
+            "description":"Questions about the Ghostface killers' motives.",
+            "questions":[
+                {
+                    "question":"What motive does Stu Macher give for committing the murders?",
+                    "answer":"Peer pressure"
+                },
+                {
+                    "question":"What were Jill Roberts' motives for committing the murders?",
+                    "answer":"Jealousy of Sidney and a desire to become famous"
+                },
+                {
+                    "question":"What was Debbie Salt's given motive for committing the murders?",
+                    "answer":"Good old fashioned revenge for the murder of her son Billy Loomis"
+                },
+                {
+                    "question":"What was Mickey Altieri's given motive for committing the murders?",
+                    "answer":"To go to trial, blame the movies and become infamous"
+                },
+                {
+                    "question":"What were Richie Kirsch and Amber Freeman's given motives for committing the murders?",
+                    "answer":"To create new source material for the Stab franchise which they felt had gone off the rails"
+                }
+            ]
+        },
+        {
+            "name":"Carnage Candy",
+            "description":"Displays image of a character and players must answer with how they died.",
+            "questions":[
+                {
+                    "question":"How was this victim killed?",
+                    "answer":"Stabbed/gutted",
+                    "endnote":"Casey Becker in Scream",
+                    "imgPath": "/scream/carnage/casey.png",
+                    "revealPath": "/scream/carnage/reveal/casey.png"
+                },
+                {
+                    "question":"How was this victim killed?",
+                    "answer":"Neck snapped by garage door",
+                    "endnote":"Tatum Riley in Scream",
+                    "imgPath": "/scream/carnage/tatum.png",
+                    "revealPath": "/scream/carnage/reveal/tatum.png"
+                },
+                {
+                    "question":"How was this victim killed?",
+                    "answer":"Thrown off the top floor balcony of the Omega Beta Zeta sorority house",
+                    "endnote":"Casey \"Cici\" Cooper in Scream 2",
+                    "imgPath": "/scream/carnage/cici.png",
+                    "revealPath": "/scream/carnage/reveal/cici.png"
+                },
+                {
+                    "question":"How was this victim killed?",
+                    "answer":"Gas explosion",
+                    "endnote":"Tom Prinze in Scream 3",
+                    "imgPath": "/scream/carnage/tom.png",
+                    "revealPath": "/scream/carnage/reveal/tom.png"
+                },
+                {
+                    "question":"How was this victim killed?",
+                    "answer":"Head impaled by pipe",
+                    "endnote":"Officer Andrew Richards in Scream 2",
+                    "imgPath": "/scream/carnage/richards.png",
+                    "revealPath": "/scream/carnage/reveal/richards.png"
+                }
+            ]
+        }
+    ]
+}
