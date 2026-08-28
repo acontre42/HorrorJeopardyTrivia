@@ -87,7 +87,7 @@ h2 {
     height: 100%;
 }
 
-.titlecard, #infoDiv, #infoDiv button {
+.titlecard, #infoDiv, button, #timerDiv {
     text-transform: uppercase;
 }
 
@@ -160,7 +160,31 @@ h2 {
     border-bottom-width: 3.5rem;
 }
 
-#infoDiv button {
+#timerDiv {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    max-height: 20%;
+    max-width: 15%;
+    min-width: 10%;
+    background-color: black;
+    text-shadow: 1px 1px 1px gray;
+    letter-spacing: 0.2rem;
+    font-size: 1.8rem;
+    max-width: 50%;
+    border-radius: 5%;
+    border: 0.2rem solid white;
+}
+
+#timerDiv p {
+    margin: 0.5rem 1rem;
+}
+
+#timeSpan {
+    font-size: 2.3rem;
+}
+
+button {
     background-color: white;
     color: black;
     text-shadow: 1.5px 1.5px 1.5px black;
