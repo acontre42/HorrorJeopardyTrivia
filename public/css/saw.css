@@ -152,7 +152,32 @@ h2 {
     max-width: 60%;
 }
 
-#infoDiv button {
+#timerDiv {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    max-height: 20%;
+    max-width: 15%;
+    min-width: 10%;
+    background-color: black;
+    color: white;
+    text-shadow: 1px 5px 2px#880808;
+    letter-spacing: 0.1rem;
+    font-size: 1.8rem;
+    max-width: 50%;
+    border-radius: 5%;
+    border: 0.2rem double #880808;
+}
+
+#timerDiv p {
+    margin: 0.5rem 1rem;
+}
+
+#timeSpan {
+    font-size: 2.3rem;
+}
+
+button {
     background-color: #880808;
     color: white;
     text-shadow: 1.5px 1.5px 1.5px black;

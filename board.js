@@ -109,6 +109,7 @@ export function setUpBoard(Trivia, gameOverMessage) {
         const questIndex = target.getAttribute('data-quest-index');
         const points = target.getAttribute('data-points');
         const info = Trivia.categories[catIndex].questions[questIndex];
+        let timerId; // For timer interval
 
         const popUpElem = document.createElement("div");
         popUpElem.id = "popup";
@@ -119,9 +120,13 @@ export function setUpBoard(Trivia, gameOverMessage) {
         infoDiv.innerHTML = infoToHTML(info, points);
         popUpElem.append(infoDiv);
 
+        const timerDiv = createTimerDiv();
+        popUpElem.append(timerDiv);
+
         BODY.append(popUpElem);
 
         document.getElementById("closeButton").addEventListener("click", () => {
+            clearInterval(timerId); // In case timer was started and didn't finish
             document.getElementById("popup").remove();
             if (!previouslyOpened && allCardsOpened()) {
                 displayGameOver(gameOverMessage);
@@ -131,9 +136,34 @@ export function setUpBoard(Trivia, gameOverMessage) {
             reveal();
             event.target.remove();
         });
+        document.getElementById("timerButton").addEventListener("click", (event) => {
+            timerId = setInterval(() => {
+                const timeSpan = document.getElementById("timeSpan");
+                let seconds = Number(timeSpan.innerText);
+                seconds--;
+                if (seconds <= 0) {
+                    document.getElementById("timerDiv").innerHTML = `<p>Time's Up!</p>`;
+                    clearInterval(timerId);
+                }
+                else {
+                    timeSpan.innerText = `${seconds}`;
+                }
+            }, 1000);
+            event.target.remove();
+        });
 
         target.classList.add("opened"); // Change style of selected card by adding ".opened" class
     }
+}
+
+// Creates an interactive timer div to coincide with the infoDiv in the popUp element
+export function createTimerDiv(seconds = 30) {
+    const timerDiv = document.createElement("div");
+    timerDiv.id = "timerDiv";
+    timerDiv.innerHTML = `<p><span id="timeSpan">${seconds}</span> s</p>`;
+    timerDiv.innerHTML += `<button id="timerButton">Start Timer</button>`;
+
+    return timerDiv;
 }
 
 // Removes splashScreen element to reveal board after set amount of time
