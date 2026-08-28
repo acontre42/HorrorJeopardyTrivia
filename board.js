@@ -139,14 +139,14 @@ export function setUpBoard(Trivia, gameOverMessage) {
         document.getElementById("timerButton").addEventListener("click", (event) => {
             timerId = setInterval(() => {
                 const timeSpan = document.getElementById("timeSpan");
-                let timeInMs = Number(timeSpan.innerText) * 1000;
-                timeInMs -= 1000;
-                if (timeInMs <= 0) {
+                let seconds = Number(timeSpan.innerText);
+                seconds--;
+                if (seconds <= 0) {
                     document.getElementById("timerDiv").innerHTML = `<p>Time's Up!</p>`;
                     clearInterval(timerId);
                 }
                 else {
-                    timeSpan.innerText = `${timeInMs / 1000}`;
+                    timeSpan.innerText = `${seconds}`;
                 }
             }, 1000);
             event.target.remove();
@@ -157,10 +157,10 @@ export function setUpBoard(Trivia, gameOverMessage) {
 }
 
 // Creates an interactive timer div to coincide with the infoDiv in the popUp element
-export function createTimerDiv(timeInMs = 30000) {
+export function createTimerDiv(seconds = 30) {
     const timerDiv = document.createElement("div");
     timerDiv.id = "timerDiv";
-    timerDiv.innerHTML = `<p><span id="timeSpan">${timeInMs / 1000}</span> s</p>`;
+    timerDiv.innerHTML = `<p><span id="timeSpan">${seconds}</span> s</p>`;
     timerDiv.innerHTML += `<button id="timerButton">Start Timer</button>`;
 
     return timerDiv;
