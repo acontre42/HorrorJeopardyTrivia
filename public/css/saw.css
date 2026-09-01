@@ -152,6 +152,15 @@ h2 {
     max-width: 60%;
 }
 
+#optionsList {
+    list-style: none;
+}
+
+#optionsList li {
+    text-align: left;
+    padding-left: 5%;
+}
+
 #timerDiv {
     position: fixed;
     bottom: 1%;

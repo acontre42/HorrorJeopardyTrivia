@@ -26,11 +26,19 @@ function displayGameOver(message) {
 }
 
 function infoToHTML(info, points) {
-    const {question, answer, imgPath, endnote, revealPath} = info;
+    const {question, answer, options, imgPath, endnote, revealPath} = info;
 
     let infoHTML = 
     `<h1>${points} points</h1>
     <h2>${question}</h2>`;
+
+    if (options) {
+        infoHTML += `<ul id='optionsList'>`;
+        for (let option of options) {
+            infoHTML += `<li>${option}</li>`
+        }
+        infoHTML += `</ul>`;
+    }
 
     if (imgPath)
     {
