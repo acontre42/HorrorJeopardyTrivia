@@ -1,5 +1,6 @@
 "use strict";
 import Trivia from './categories/scream.json' with {type: "json"};
+//import Trivia from './categories/scream2.json' with {type: "json"};
 import {setUpBoard, removeSplashScreenTimer} from './board.js';
 
 removeSplashScreenTimer(4600);

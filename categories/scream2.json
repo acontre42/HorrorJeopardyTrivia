@@ -1,0 +1,210 @@
+{
+    "categories":[
+        {
+            "name":"Woodsboro Murders",
+            "description":"Questions related to all the murder sprees that occurred in Woodsboro, California.",
+            "questions":[
+                {
+                    "question":"Which character is the author of the best-selling book <i>The Woodsboro Murders</i>?",
+                    "answer":"Gale Weathers"
+                },
+                {
+                    "question":"Who was the first victim of the original Woodsboro Murders?",
+                    "answer":"Maureen Prescott"
+                },
+                {
+                    "question":"Who did the original Ghostface killers plan to pin the murders on?",
+                    "answer":"Neil Prescott",
+                    "endnote":"Sidney's father"
+                },
+                {
+                    "question":"Which of the three Woodsboro Murders (1996, 2011, 2022) had the highest body count?",
+                    "answer":"The 2011 Woodsboro Murders",
+                    "endnote":"The 2011 Woodsboro Murders had a total of 9 fatalities while the 1996 and 2022 Woodsboro Murders each had 6 fatalities, respectively"
+                },
+                {
+                    "question":"In total, how many characters have survived an attack in a previous Woodsboro Murder spree only to die in a later one?",
+                    "answer":"2",
+                    "endnote":"Dwight \"Dewey\" Riley survived in 1996 and 2011 but died in 2022. Judy Hicks survived in 2011 but died in 2022."
+                }
+            ]
+        },
+        {
+            "name":"Core Four",
+            "description":"Questions related to the group known as the Core Four.",
+            "questions":[
+                {
+                    "question":"Who are the members of the Core Four?",
+                    "answer":"Samantha \"Sam\" Carpenter, Tara Carpenter, Chad Meeks-Martin, and Mindy Meeks-Martin"
+                },
+                {
+                    "question":"To which state do the Core Four relocate to after the events of Scream (2022)?",
+                    "answer":"New York"
+                },
+                {
+                    "question":"Who came up with the name \"Core Four\"?",
+                    "answer":"Chad Meeks-Martin"
+                },
+                {
+                    "question":"How many members of the Core Four are related to legacy characters by blood?",
+                    "answer":"3",
+                    "endnote":"Sam is Billy Loomis' daughter, Mindy and Chad are Randy Meeks' niece and nephew"
+                },
+                {
+                    "question":"What is Tara Carpenter's favorite scary movie?",
+                    "answer":"The Babadook"
+                }
+            ]
+        },
+        {
+            "name":"Victims",
+            "description":"Display image of a Ghostface victim and players must answer with their name or an apt description.",
+            "questions":[
+                {
+                    "question":"Who is this?",
+                    "answer":"Derek Feldman",
+                    "endnote":"Sidney's college boyfriend",
+                    "imgPath": "/scream/victims/derek.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Judy Hicks",
+                    "endnote":"Woodsboro law enforcement officer",
+                    "imgPath": "/scream/victims/judy.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Jennifer Jolie",
+                    "endnote":"Actress who portrays Gale Weathers in the Stab franchise",
+                    "imgPath": "/scream/victims/jennifer.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Tyson Fox",
+                    "endnote":"Actor in Stab 3: Return to Woodsboro",
+                    "imgPath": "/scream/victims/tyson.png"
+                },
+                {
+                    "question":"Who is this?",
+                    "answer":"Kathleen \"Kate\" Roberts",
+                    "endnote":"Jill's mom and Sidney's aunt",
+                    "imgPath": "/scream/victims/kate.png"
+                }
+            ]
+        },
+        {
+            "name":"Rather Poetic",
+            "description":"Presents players with an in-dialogue descriptor applied to a character and provides multiple choice options for who the descriptor might be describing.",
+            "questions":[
+                {
+                    "question":"Which character gets referred to as a \"tabloid twit\"?",
+                    "options": [
+                        "A. Cotton Weary",
+                        "B. Debbie Salt",
+                        "C. Gale Weathers",
+                        "D. Rebecca Walters"
+                    ],
+                    "answer":"C. Gale Weathers",
+                    "endnote":"Spoken by Sidney Prescott in Scream"
+                },
+                {
+                    "question":"Which character gets referred to as the \"freaky Tarantino film student\"?",
+                    "options": [
+                        "A. Jason Carvey",
+                        "B. Mickey Altieri",
+                        "C. Mindy Meeks-Martin",
+                        "D. Randy Meeks"
+                    ],
+                    "answer":"B. Mickey Altieri",
+                    "endnote":"Spoken by Randy Meeks in Scream 2"
+                },
+                {
+                    "question":"Which character gets referred to as a \"bubble-butt boyfriend\"?",
+                    "options": [
+                        "A. Billy Loomis",
+                        "B. Danny Brackett",
+                        "C. Derek Feldman",
+                        "D. Stuart \"Stu\" Macher"
+                    ],
+                    "answer":"A. Billy Loomis",
+                    "endnote":"Spoken by Girl in Bathroom in Scream"
+                },
+                {
+                    "question":"Which character gets referred to as a \"strong, virile young man\"?",
+                    "options": [
+                        "A. Chad Meeks-Martin",
+                        "B. Dwight \"Dewey\" Riley",
+                        "C. Richard \"Richie\" Kirsch",
+                        "D. Trevor Sheldon"
+                    ],
+                    "answer":"C. Richard \"Richie\" Kirsch",
+                    "endnote":"Spoken by Detective Wayne Bailey in Scream VI"
+                },
+                {
+                    "question":"Which character gets referred to as the \"dumb blonde with the big tits\"?",
+                    "options": [
+                        "A. Jenny Randall",
+                        "B. Judy Hicks",
+                        "C. Sarah Darling",
+                        "D. Tatum Riley"
+                    ],
+                    "answer":"A. Jenny Randall",
+                    "endnote":"Spoken by Ghostface in Scream 4"
+                }
+            ]
+        },
+        {
+            "name":"Hollywood Horror",
+            "description":"Questions related to Scream 3 events set in Hollywood, California.",
+            "questions":[
+                {
+                    "question":"What movie is in production at the Sunrise Studios film lot during the events of Scream 3?",
+                    "answer":"Stab 3: Return to Woodsboro"
+                },
+                {
+                    "question":"Which deceased character makes an appearance in Hollywood via a VHS tape?",
+                    "answer":"Randy Meeks"
+                },
+                {
+                    "question":"Which character previously worked under the pseudonym \"Rina Reynolds\"?",
+                    "answer":"Maureen Prescott"
+                },
+                {
+                    "question":"Which two characters from a different film franchise make a cameo on the Sunrise Studios film lot?",
+                    "answer":"Jay and Silent Bob"
+                },
+                {
+                    "question":"What is the name of Cotton Weary's talk show?",
+                    "answer":"100% Cotton"
+                }
+            ]
+        },
+        {
+            "name":"Meta",
+            "description":"Questions related to the Scream franchise as a whole.",
+            "questions":[
+                {
+                    "question":"What year was the first Scream released?",
+                    "answer":"1996"
+                },
+                {
+                    "question":"What was Scream originally going to be titled?",
+                    "answer":"Scary Movie"
+                },
+                {
+                    "question":"Fill in the blank: The song \"Red Right Hand\" by Nick Cave and the Bad Seeds plays in every installment of the Scream franchise except for ___.",
+                    "answer":"Scream 4"
+                },
+                {
+                    "question":"Director Wes Craven has an on-screen, uncut cameo in how many of the Scream movies?",
+                    "answer":"3",
+                    "endnote":"Fred, the school janitor, in Scream, a doctor in Scream 2, and a tourist in Scream 3. His cameo as a coroner was cut from Scream 4."
+                },
+                {
+                    "question":"Which two real-life romantic relationships between cast members came out of the first Scream?",
+                    "answer":"Courteney Cox and David Arquette & Neve Campbell and Matthew Lillard"
+                }
+            ]
+        }
+    ]
+}
