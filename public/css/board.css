@@ -1,0 +1,66 @@
+html {
+    background-color: rgb(0, 0, 0.942);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+}
+
+.fill-screen {
+    position: absolute;
+    background-color: black;
+    width: 99%;
+    height: 99%;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px white;
+}
+
+#splashScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    animation-name: abrupt-fade-out;
+    animation-duration: 4.5s;
+}
+
+h1 {
+    padding: 0px;
+    margin: 5px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+footer {
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 0px;
+    z-index:-1;
+}
+
+#board {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    width: 16.5%;
+    height: 100%;
+}
+
+.animateFadeIn {
+    animation-name: fade-in;
+    animation-duration: 1s;
+}
